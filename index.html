@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>ToDo List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>ToDo List</h2>
+   <form id="form"> <input type="text" id="taskInput" placeholder="Görev ekle...">
+    <button id="addBtn" type="submit"  >Ekle</button>
+  </form>
+ </div>
+   <div class="container" id="tasksArea">
+    <h3>Yapılacaklar</h3>
+    <ul id="taskList"></ul>
+    <button id="clear" >temizle</button>
+  </div>
+  <div class="container" id="doneArea">
+  <h3>Yaptıklarım</h3>
+  <ul id="doneList"></ul>
+  <button id="clearDone">temizle</button>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>

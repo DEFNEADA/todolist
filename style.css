@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url(powerpuff.jpg) ;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 300px;
+  margin: 50px auto;
+  background: #d6faf6;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #891ee0;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  border-radius:10px ;
+  padding: 10px;
+  border: none;
+  background: #c574d7;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #500880;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+ul li {
+  background: #eee;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  gap: 8px;
+  padding: 8px 10px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  margin-bottom: 6px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.actions .btn {
+  margin-right: 5px;
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+/*yaptıklarım kısmı*/
+#doneArea {
+  background: #d6faf6;           
+  box-shadow: 0 0 10px #891ee0;
+}
+
+#doneArea h3 {
+  margin-top: 0;
+}
+
+.task.done .text {
+  text-decoration: line-through;
+  color: #6b7280;                   
+  opacity: 0.9;
+}
+
+
+.undo {
+  margin-right: 6px;
+}
+
+.empty {
+  color: #6b7280;
+  background: #d6faf6;
+  border: 1px dashed #d1d5db;
+  text-align: center;
+}
+
+
